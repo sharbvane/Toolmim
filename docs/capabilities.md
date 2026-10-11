@@ -74,6 +74,8 @@ Lite 不接受目标时长、主题、视觉风格或参考片；这些字段在
 
 本次真实自测：
 
+重新执行时先设置 `TOOLMIM_TEST_VIDEOS` 为自有 MP4 素材目录、`TOOLMIM_TEST_MONTAGE_ROOT` 为独立执行器根目录；需要指定 Python 时设置 `TOOLMIM_TEST_PYTHON`。这些本机路径不写入源码，测试不会自动读取应用设置或公开用户素材。
+
 ```powershell
 node node_modules/tsx/dist/cli.mjs tests/adapters-real.ts --montage
 ```
