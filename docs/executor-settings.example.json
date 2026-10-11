@@ -1,0 +1,14 @@
+{
+  "provider": "openai",
+  "modelId": "gpt-4.1-mini",
+  "baseUrl": "",
+  "allowCommands": false,
+  "executors": {
+    "onetakeRoot": "<在设置页填写已有 onetake 安装根目录>",
+    "hypitRoot": "<在设置页填写已有 Hypit 安装根目录>",
+    "socialRoot": "<在设置页填写已有 social-auto-upload 安装根目录>",
+    "montageRoot": "<在设置页填写已有 BGM Montage 或 BMTS Lite 安装根目录>",
+    "python": "python",
+    "ffmpeg": "ffmpeg"
+  }
+}
